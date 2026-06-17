@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50px;
+}
+.circle-div{
+    display: flex;
+    gap: 10px;
+    justify-self: center;
+    margin-top: 100px;
+}
+.circle-div :hover{
+    background-color: red;
+    border: 1px solid green;
+    transition-duration: 5ms;
+    cursor: pointer;
+}
+.circle-div :active{
+    background-color: red;
+    border: 1px solid green;
+    transition-duration: 5ms;
+    cursor: pointer;
+}
